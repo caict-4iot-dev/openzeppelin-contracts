@@ -23,7 +23,6 @@ import {ERC721Holder} from "../token/ERC721/utils/ERC721Holder.sol";
 import {Math} from "../utils/math/Math.sol";
 import {MerkleProof} from "../utils/cryptography/MerkleProof.sol";
 import {SafeCast} from "../utils/math/SafeCast.sol";
-import {SafeERC20} from "../token/ERC20/utils/SafeERC20.sol";
 import {ShortStrings} from "../utils/ShortStrings.sol";
 import {SignedMath} from "../utils/math/SignedMath.sol";
 import {StorageSlot} from "../utils/StorageSlot.sol";
