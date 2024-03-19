@@ -1,6 +1,6 @@
 {
   "name": "openzeppelin-solidity",
-  "description": "Secure Smart Contract library for Solidity",
+  "description": "Secure Smart Contract library for bif Solidity",
   "version": "5.0.1",
   "private": true,
   "files": [
@@ -32,22 +32,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts.git"
+    "url": "https://github.com/caict-4iot-dev/openzeppelin-contracts.git"
   },
   "keywords": [
     "solidity",
-    "ethereum",
+    "bif",
     "smart",
     "contracts",
     "security",
     "zeppelin"
   ],
-  "author": "OpenZeppelin Community <maintainers@openzeppelin.org>",
+  "author": "maxufeng <maxufeng@caict.ac.cn>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts/issues"
+    "url": "https://github.com/caict-4iot-dev/openzeppelin-contracts/issues"
   },
-  "homepage": "https://openzeppelin.com/contracts/",
+  "homepage": "https://github.com/caict-4iot-dev/",
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.0",
