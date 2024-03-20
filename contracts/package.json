@@ -1,15 +1,13 @@
 {
   "name": "@openzeppelin-bif/contracts",
   "description": "Solidity's secure smart contract library for bif",
-  "version": "5.0.1",
+  "version": "5.0.1-1",
   "files": [
     "**/*.sol",
     "/build/contracts/*.json",
     "!/mocks/**/*"
   ],
   "scripts": {
-    "prepack": "bash ../scripts/prepack.sh",
-    "prepare-docs": "cd ..; npm run prepare-docs"
   },
   "repository": {
     "type": "git",
