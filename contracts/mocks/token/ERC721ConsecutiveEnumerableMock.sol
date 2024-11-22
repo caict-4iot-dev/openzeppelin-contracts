@@ -11,7 +11,7 @@ contract ERC721ConsecutiveEnumerableMock is ERC721Consecutive, ERC721Enumerable 
         string memory name,
         string memory symbol,
         address[] memory receivers,
-        uint96[] memory amounts
+        uint64[] memory amounts
     ) ERC721(name, symbol) {
         for (uint256 i = 0; i < receivers.length; ++i) {
             _mintConsecutive(receivers[i], amounts[i]);

@@ -8,7 +8,7 @@
 
 **A library for secure smart contract development.** Build on a solid foundation of community-vetted code.
 
- * Implementations of standards like [ERC20](https://docs.openzeppelin.com/contracts/erc20) and [ERC721](https://docs.openzeppelin.com/contracts/erc721).
+ * Implementations of standards like [ERC721](https://docs.openzeppelin.com/contracts/erc721).
  * Flexible [role-based permissioning](https://docs.openzeppelin.com/contracts/access-control) scheme.
  * Reusable [Solidity components](https://docs.openzeppelin.com/contracts/utilities) to build custom contracts and complex decentralized systems.
 
@@ -25,18 +25,6 @@
 
 ```
 $ npm install @openzeppelin-bif/contracts
-```
-
-#### Foundry (git)
-
-> [!WARNING]
-> When installing via git, it is a common error to use the `master` branch. This is a development branch that should be avoided in favor of tagged releases. The release process involves security measures that the `master` branch does not guarantee.
-
-> [!WARNING]
-> Foundry installs the latest version initially, but subsequent `forge update` commands will use the `master` branch.
-
-```
-$ forge install maxufeng/openzeppelin-contracts
 ```
 
 Add `@openzeppelin-bif/contracts/=lib/openzeppelin-contracts/contracts/` in `remappings.txt.` 

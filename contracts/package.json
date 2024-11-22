@@ -1,14 +1,13 @@
 {
   "name": "@openzeppelin-bif/contracts",
   "description": "Solidity's secure smart contract library for bif",
-  "version": "5.0.1-1",
+  "version": "5.0.1",
   "files": [
     "**/*.sol",
     "/build/contracts/*.json",
     "!/mocks/**/*"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/caict-4iot-dev/openzeppelin-contracts.git"
@@ -23,7 +22,6 @@
   ],
   "author": "maxufeng <maxufeng@caict.ac.cn>",
   "license": "MIT",
-  "bugs": {
-  },
+  "bugs": {},
   "homepage": ""
 }
